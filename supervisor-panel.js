@@ -4,21 +4,20 @@
  *
  * https://github.com/Pjarbit/supervisor-panel
  *
- * @version 1.1.4
+ * @version 1.2.0
  * @author Pjarbit
  *
- * @version 1.1.9
+ * @version 1.2.1
  * @author chrischan
  *
- * 1.1.9: Button- und Schattenfarben aus Upstream 1.2.0 (HA-Blau/-Rot)
- * 1.1.8: Menü-Button für die Seitenleiste (Handy/schmale Ansicht),
+ * 1.2.1: Basis Pjarbit 1.2.0 (HA-Farben), Menü-Button für die Seitenleiste,
  *        Live-Werte über hass statt get_states, echte Core-/Supervisor-Werte,
  *        Rechnerwerte in der Host-Karte, Protokoll-Abruf pausiert im Hintergrund
  *
  * @license MIT
  */
 
-const SUPERVISOR_PANEL_VERSION = '1.1.9';
+const SUPERVISOR_PANEL_VERSION = '1.2.1';
 
 /** Feste Entitäten dieser Installation (für andere Systeme gibt es einen Stichwort-Fallback) */
 const SP_ENTITIES = {
